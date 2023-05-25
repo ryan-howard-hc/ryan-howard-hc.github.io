@@ -14,9 +14,10 @@ The First week was not at all what I was expecting. _Pure_ anxiety, lack of prep
 - Expand my usage of the terminal and properly utilize the 'git-flow strategy'
 - Repeat repeat repeat my usage of HTML and CSS to familiarize my understanding of the product
 - Lastly, not get too comfortable. As was stated previously, if ya aint uncomfortable, ya aint learnin'
----
+
+
 ## Who am i?
 ---
 I wish I could even answer this, but I love puttering around in my 'garden.' Love my tropical plants, and messing around with shrimp and fishtanks!
 
-![Pflanzen](file:///C:/Users/Ryan's%20PC/Pictures/Snapchat-1938554291.jpg)
+![Pflanzen](https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSgy0ub-i7AzAvWrr6ovHv3Ueitr7WtiHqSToONRTlNfq96cIxyC1fCIJD7Cc9BCcBR2aiz1T5a0uvOf5U)
