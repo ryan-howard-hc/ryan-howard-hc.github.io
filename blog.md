@@ -14,7 +14,7 @@ The First week was not at all what I was expecting. _Pure_ anxiety, lack of prep
 - Expand my usage of the terminal and properly utilize the 'git-flow strategy'
 - Repeat repeat repeat my usage of HTML and CSS to familiarize my understanding of the product
 - Lastly, not get too comfortable. As was stated previously, if ya aint uncomfortable, ya aint learnin'
-
+ 
 
 ## Who am i?
 ---
