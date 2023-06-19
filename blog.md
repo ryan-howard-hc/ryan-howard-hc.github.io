@@ -56,3 +56,14 @@ Bootstrap and atomic design at least mesh with how my brain works to some degree
 
 ## What's your 'Why'?
 I want to find something that meshes well with the lifestyle Id enjoy pursuing. I am always eager about learning, but not always eager to fall down and have to get up instead of just sleeping there (haha). The reaches of this profession are almost limitless in this day and age, and Id like to have the proper skills to chase any ambitions. Maybe this will lead into or open up the gates for a career in video game development? Who knows? Either way, im here!
+
+# WEEK 4! Sprint 2
+
+## What did I learn about the development process?
+I learned quite a bit, I learned I need to slow down my learning process, and actually absorb what I am doing. In the same vain, learned take a nap if youre not processing the information. More specifically, I learned the importance of a kind of derivative thinking regarding most functions. I learned how to organize my code properly, having almost a 'key' for my variables. Im learning I need to stop extra time reading over materials on the weekends. NO REST!
+
+## Developing good code / Becoming a good developer
+The principal of thinking of the end user is the primary goal along continually learning. Making it readable, efficient, and easily maintained are probably the next largest factors. Also words from wiser devs: Good pseudo, good documentation, and good preparation for any potential future updates. I think these two questions are equally important and just facets of the other. Traits such as having patience, knowing when to take breaks when youre not able to think properly, as well as versing yourself in marketable and useful skills.
+
+## What is the one thing programmers hate?
+WET code (We enjoy typing). Sloppy code and convoluted code. Code that is overly difficult to interpret. Spoiler alert: there's more than one
