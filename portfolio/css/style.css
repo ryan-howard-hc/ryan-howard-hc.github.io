@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Audiowide-Regular';
+    src: url(/portfolio/css/Audiowide-Regular.ttf);
+}
+
+.inner-container h1 {
+    font-family: 'Audiowide-Regular', sans-serif;
+}
+
+.sticky-container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/3178786/pexels-photo-3178786.jpeg);
+    color: aliceblue;
+}
+
+.inner-container1 {
+    text-align: center; /* Center the text */
+    font-stretch: expanded; /* Stretch the font horizontally */
+}
+
+.custom-header {
+    background-color: black !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.custom-header h1 {
+    font-family: "Audiowide-Regular";
+}
+
+.custom-header .navbar-nav {
+    list-style-type: none !important;
+}
+.custom-header .navbar-nav {
+    padding-left: 0 !important;
+}
+a {
+    padding-left: 25px !important;
+}
