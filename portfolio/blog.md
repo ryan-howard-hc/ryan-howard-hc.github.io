@@ -67,3 +67,13 @@ The principal of thinking of the end user is the primary goal along continually 
 
 ## What is the one thing programmers hate?
 WET code (We enjoy typing). Sloppy code and convoluted code. Code that is overly difficult to interpret. Spoiler alert: there's more than one
+
+
+# WEEK 5!
+
+## What exactly is pseudocode?
+Simply put, pseudocode is a rudimentary step of instructions which is intended to be read by people rather than machine reading. It's an easy way to draw out a basic idea or plan on how to tackle an issue or task in computer science. You take this rough draft of sorts to outline what your attack plan on building algorithms and the complementary structure surrounding it.
+## The Advantages of the pseudo
+Pseudocode is particularly useful for less experienced developers as it can use any language that the programmer prefers and understands or is proficient in. The more fleshed out the basic instructions are make getting to the end goal much less strenuous, as well as less likely to contain errors or missing features. For front-end it can allow an actual sketch of what you or the client want it to look like. It's also an easier concept to run by peers who might be able to offer insight with rough visuals and an attack plan. It's like building a puzzle in the sense that you can just grab larger pieces, put them together, and link them to the larger picture. Or like a trellis that allows you to lead your plant in the right direction.
+<img src="">
+## How has pseudo improved the non-pseudo
