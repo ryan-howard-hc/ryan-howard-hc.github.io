@@ -1,0 +1,33 @@
+[
+    {
+      "image": "https://consequence.net/wp-content/uploads/2018/11/they-live.jpg?quality=80",
+      "week": "Week 1",
+      "description": "What'd I get myself into",
+      "link": "/portfolio/blogweek1.html"
+    },
+    {
+      "image": "https://i.ytimg.com/vi/r0qBaBb1Y-U/hqdefault.jpg",
+      "week": "Week 2",
+      "description": "Pseu-pseu-pseucoding",
+      "link": "/portfolio/blogweek2.html"
+    },
+    {
+      "image": "/portfolio/img/0_ZjYSm_q36J4KChdn.jpg",
+      "week": "Week (WEAK) 3",
+      "description": "This is fine..",
+      "link": "/portfolio/blogweek3.html"
+    },
+    {
+      "image": "/portfolio/img/talosiannn.jpg",
+      "week": "Week 4",
+      "description": "okayokayokay",
+      "link": "/portfolio/blogweek4.html"
+    },
+    {
+      "image": "/portfolio/img/memento-featured.jpg",
+      "week": "Week 5",
+      "description": "Pseudo Part Deux",
+      "link": "/portfolio/blogweek5.html"
+    }
+  ]
+  
