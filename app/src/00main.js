@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import 'bootstrap/dist/js/bootstrap.min.js';
 import axios from 'axios';
 import blogData from './blog.json';
 import BlogJourney from './02teasers';
+import BlogOne from './03blogone';
+import Header from './01header';
 
-function App() {
+function Blog() {
   return (
-    <div className="App">
+    <div className="Blog">
       <Header />
       <BlogJourney />
       <BlogOne />
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Blog;

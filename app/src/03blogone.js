@@ -1,5 +1,5 @@
 import React from 'react';
-
+import blogData from './blog.json';
 const BlogOne = () => {
   return (
     <section id="blogMain">

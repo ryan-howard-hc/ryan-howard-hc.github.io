@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-
+import blogData from './blog.json';
 const BlogJourney = () => {
     return (
         
