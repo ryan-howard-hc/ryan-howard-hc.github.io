@@ -5,7 +5,7 @@ const BlogOne = () => {
     <section id="blogMain">
       <div className="row">
         <div className="col-11 ms-5">
-          <iframe src="/portfolio/blogweek1.html" className="preview-iframe"></iframe>
+          <iframe src="./portfolio/blogweek1.html" className="preview-iframe"></iframe>
         </div>
       </div>
     </section>
