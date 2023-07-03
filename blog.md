@@ -79,3 +79,19 @@ Pseudocode is particularly useful for less experienced developers as it can use 
 
 ## How has pseudo improved the non-pseudo
 It creates a solid template by which I can properly follow and creates structure. Otherwise my non pseudo becomes disorganized chaos and I lose track and cannot piece the puzzle together. I was a skeptic initially, but later have become an advocate for the pseudo. It also serves as a nice checklist for what I want on the page. It also can serve as a pseudo-wireframe for design. It reduces the amount of WET code I produce. Lastly, it is a great way to manage what is on the user end, and catering to the customer which is arguably the most important point. 
+
+# Week 6 - React Intro
+## Are javascript frameworks and libraries easy or hard to use?
+Well, learning them is already becoming a pain in the ass, but in a lot of respects I would say easier in the long run. It is certainly confusing right now to connect all of these individual js pages as well as switching to a new method of javascript immediately following any understand of javascript.
+
+## What Frameworks or Libraries are you interested in learning more about?
+Seeing as how I've barely touched this so far, I feel like this would be a better question a week or two from now! But after a little further review, Next.js has been what we're working with, so that for now (haha). All jokes aside, Ive seen material-ui and I have interest in creating an app or two, or gaining at least rudimentary experience in this topic.
+
+## One emerging JavaScript tool that Id like to learn more about
+In a world where much is life is based around efficiency and speed, I started reading about ESBuild. 
+- Extreme speed without needing a cache
+- JavaScript, CSS, TypeScript, and JSX built-in
+- A straightforward API for CLI, JS, and Go
+- Bundles ESM and CommonJS modules
+- Tree shaking, minification, and source maps
+- Local server, watch mode, and plugins
