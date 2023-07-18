@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import BlogJourney from './00blogjourney';
+import AboutMe from './01aboutme';
+import Week1Blog from './02blogweek1';
+import Week2Blog from './02blogweek2';
+import Week3Blog from './02blogweek3';
+import Week4Blog from './02blogweek4';
+import Week5Blog from './02blogweek5';
+import Week6Blog from './02blogweek6';
+import Week7Blog from './02blogweek7';
+import Week8Blog from './02blogweek8';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>My Portfolio</h1>
+      <BlogJourney />
+      <AboutMe />
+      <Week1Blog />
+      <Week2Blog />
+      <Week3Blog />
+      <Week4Blog />
+      <Week5Blog />
+      <Week6Blog />
+      <Week7Blog />
+      <Week8Blog />
     </div>
   );
-}
+};
 
 export default App;
