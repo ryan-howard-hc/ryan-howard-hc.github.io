@@ -1,11 +1,11 @@
 import React from 'react';
 import './00blogjourney.css'
 import { Link } from 'react-router-dom';
-import "./img/0_ZjYSm_q36J4KChdn.jpg";
-import "./img/talosiannn.jpg";
-import "./img/memento-featured.jpg";
-import "./img/2023-07-10 15_18_51-When you hack into the mainframe and disable their algorithms _ antimeme.png";
-import "./img/Contact-Card-Icons/IMG_4615.JPG";
+import img1 from "./img/0_ZjYSm_q36J4KChdn.jpg";
+import img2 from "./img/talosiannn.jpg";
+import img3 from "./img/memento-featured.jpg";
+import img4 from "./img/2023-07-10 15_18_51-When you hack into the mainframe and disable their algorithms _ antimeme.png";
+import img5 from "./img/Contact-Card-Icons/IMG_4615.JPG";
 
 
 
@@ -36,7 +36,7 @@ const BlogJourney = () => {
               <div className="header-content text-center">
                 <div className="rounded-circle mt-2" style={{ width: "200px", height: "200px", position: "relative", overflow: "hidden", margin: "0 auto" }}>
                   <div className="rounded-circle mt-3" style={{ position: "absolute", top: 0, bottom: 0, left: 0, right: 0, display: "flex" }}>
-                    <img src="./img/Contact-Card-Icons/IMG_4615.JPG" className="img-fluid" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "cover", borderRadius: "50%" }} alt="Profile" />
+                    <img src={img5} className="img-fluid" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "cover", borderRadius: "50%" }} alt="Profile" />
                   </div>
                 </div>
                 <h1 className="headtitle">Ryan Howard</h1>
@@ -91,7 +91,7 @@ const BlogJourney = () => {
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                <img src="./img/0_ZjYSm_q36J4KChdn.jpg" className="card-img-top custom-img-size" alt="Week3" />
+                <img src={img1} className="card-img-top custom-img-size" alt="Week3" />
                 <div className="card-body">
                   <h5 className="card-title">Week (WEAK) 3</h5>
                   <p className="card-text">This is fine..</p>
@@ -101,7 +101,7 @@ const BlogJourney = () => {
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                <img src="./img/talosiannn.jpg" className="card-img-top custom-img-size" alt="Week4" />
+                <img src={img2} className="card-img-top custom-img-size" alt="Week4" />
                 <div className="card-body">
                   <h5 className="card-title">Week 4</h5>
                   <p className="card-text">okayokayokay</p>
@@ -111,7 +111,7 @@ const BlogJourney = () => {
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                <img src="./img/memento-featured.jpg" className="card-img-top custom-img-size" alt="Week5" />
+                <img src={img3} className="card-img-top custom-img-size" alt="Week5" />
                 <div className="card-body">
                   <h5 className="card-title">Week 5</h5>
                   <p className="card-text">Pseudo Part Deux</p>
@@ -131,7 +131,7 @@ const BlogJourney = () => {
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                <img src="./img/2023-07-10 15_18_51-When you hack into the mainframe and disable their algorithms _ antimeme.png" className="card-img-top custom-img-size" alt="Week7" />
+                <img src={img4} className="card-img-top custom-img-size" alt="Week7" />
                 <div className="card-body">
                   <h5 className="card-title">Week 7</h5>
                   <p className="card-text">C,L,WhoAmI?</p>

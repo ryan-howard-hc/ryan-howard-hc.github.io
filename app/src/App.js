@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import './00blogjourney.css';
 import './index.css';
 import BlogJourney from './00blogjourney'; // Update the import statement to match your BlogJourney component
 import AboutMe from './01aboutme'; // Update the import statement to match your AboutMe component
