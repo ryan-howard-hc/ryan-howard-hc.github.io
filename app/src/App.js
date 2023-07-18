@@ -2,16 +2,16 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './00blogjourney.css';
 import './index.css';
-import BlogJourney from './00blogjourney'; // Update the import statement to match your BlogJourney component
-import AboutMe from './01aboutme'; // Update the import statement to match your AboutMe component
-import Week1Blog from './02blogweek1'; // Update the import statement to match your Week1Blog component
-import Week2Blog from './02blogweek2'; // Update the import statement to match your Week2Blog component
-import Week3Blog from './02blogweek3'; // Update the import statement to match your Week3Blog component
-import Week4Blog from './02blogweek4'; // Update the import statement to match your Week4Blog component
-import Week5Blog from './02blogweek5'; // Update the import statement to match your Week5Blog component
-import Week6Blog from './02blogweek6'; // Update the import statement to match your Week6Blog component
-import Week7Blog from './02blogweek7'; // Update the import statement to match your Week7Blog component
-import Week8Blog from './02blogweek8'; // Update the import statement to match your Week8Blog component
+import BlogJourney from './00blogjourney';
+import AboutMe from './01aboutme';
+import Week1Blog from './02blogweek1';
+import Week2Blog from './02blogweek2';
+import Week3Blog from './02blogweek3';
+import Week4Blog from './02blogweek4';
+import Week5Blog from './02blogweek5'; 
+import Week6Blog from './02blogweek6'; 
+import Week7Blog from './02blogweek7';
+import Week8Blog from './02blogweek8'; 
 
 const App = () => {
   return (
