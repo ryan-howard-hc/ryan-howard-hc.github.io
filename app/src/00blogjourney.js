@@ -1,11 +1,12 @@
 import React from 'react';
-import './00blogjourney.css'
+import './00blogjourney.css';
 import { Link } from 'react-router-dom';
 import img1 from "./img/0_ZjYSm_q36J4KChdn.jpg";
 import img2 from "./img/talosiannn.jpg";
 import img3 from "./img/memento-featured.jpg";
 import img4 from "./img/2023-07-10 15_18_51-When you hack into the mainframe and disable their algorithms _ antimeme.png";
 import img5 from "./img/Contact-Card-Icons/IMG_4615.JPG";
+// import "~bootstrap/dist/css/bootstrap.min.css";
 
 
 
