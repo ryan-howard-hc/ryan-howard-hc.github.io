@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import './00blogjourney.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import BlogJourney from './00blogjourney';
