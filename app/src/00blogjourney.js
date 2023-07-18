@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const BlogJourney = () => {
   return (
@@ -62,7 +64,7 @@ const BlogJourney = () => {
                 <div className="card-body">
                   <h5 className="card-title">Week 1</h5>
                   <p className="card-text">What'd I get myself into</p>
-                  <a href="/blogweek1.html" className="btn btn-primary">Curious?</a>
+                  <Link to="/02blogweek1" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
@@ -72,29 +74,27 @@ const BlogJourney = () => {
                 <div className="card-body">
                   <h5 className="card-title">Week 2</h5>
                   <p className="card-text">Pseu-pseu-pseucoding</p>
-                  <a href="/blogweek2.html" className="btn btn-primary">Curious?</a>
+                  <Link to="/02blogweek2" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
-
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
                 <img src="/portfolio/img/0_ZjYSm_q36J4KChdn.jpg" className="card-img-top custom-img-size" alt="Week3" />
                 <div className="card-body">
                   <h5 className="card-title">Week (WEAK) 3</h5>
                   <p className="card-text">This is fine..</p>
-                  <a href="/blogweek3.html" className="btn btn-primary">Curious?</a>
+                  <Link to="/02blogweek3" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
-
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
                 <img src="/portfolio/img/talosiannn.jpg" className="card-img-top custom-img-size" alt="Week4" />
                 <div className="card-body">
                   <h5 className="card-title">Week 4</h5>
                   <p className="card-text">okayokayokay</p>
-                  <a href="/blogweek4.html" className="btn btn-primary">Curious?</a>
+                  <Link to="/02blogweek4" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ const BlogJourney = () => {
                 <div className="card-body">
                   <h5 className="card-title">Week 5</h5>
                   <p className="card-text">Pseudo Part Deux</p>
-                  <a href="/blogweek5.html" className="btn btn-primary">Curious?</a>
+                  <Link to="/02blogweek5" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ const BlogJourney = () => {
                 <div className="card-body">
                   <h5 className="card-title">Week 6</h5>
                   <p className="card-text">React, Adapt, React</p>
-                  <a href="/blogweek6.html" className="btn btn-primary">Curious?</a>
+                  <Link to="/02blogweek6" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ const BlogJourney = () => {
                 <div className="card-body">
                   <h5 className="card-title">Week 7</h5>
                   <p className="card-text">C,L,WhoAmI?</p>
-                  <a href="/blogweek7.html" className="btn btn-primary">Curious?</a>
+                  <Link to="/02blogweek7" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
@@ -134,18 +134,10 @@ const BlogJourney = () => {
                 <div className="card-body">
                   <h5 className="card-title">Week 8 || HALFWAY!</h5>
                   <p className="card-text">Dabbling with the Python / Snake Charming</p>
-                  <a href="/blogweek8.html" className="btn btn-primary">Curious?</a>
+                  <Link to="/02blogweek8" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section id="blogMain" className="">
-        <div className="row">
-          <div className="col-11 ms-5">
-
-            <iframe src="/blogweek1.html" className="preview-iframe"></iframe>
           </div>
         </div>
       </section>
