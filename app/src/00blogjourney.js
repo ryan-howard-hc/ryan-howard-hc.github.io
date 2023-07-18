@@ -20,7 +20,7 @@ const BlogJourney = () => {
               <div className="header-content">
                 <div className="header-left d-flex flex-column align-items-center weeklinks">
                   <h5 className="fw-bold mt-1">Blog Posts</h5>
-                  <Link to="/" className="nav-link fst-italic">Week 1</Link>
+                  <Link to="/02blogweek1" className="nav-link fst-italic">Week 1</Link>
                   <Link to="/02blogweek2" className="nav-link fst-italic">Week 2</Link>
                   <Link to="/02blogweek3" className="nav-link fst-italic">Week 3</Link>
                   <Link to="/02blogweek4" className="nav-link fst-italic">Week 4</Link>
