@@ -1,7 +1,3 @@
-@font-face {
-    font-family: 'Audiowide-Regular' !important;
-    src: url('/portfolio/css/Audiowide-Regular.ttf') !important;
-}
 
 #blogMain {
     display: flex;
