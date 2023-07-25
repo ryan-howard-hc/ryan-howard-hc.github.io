@@ -1,15 +1,18 @@
 import React from 'react';
 import './00bloga.css';
 import { Link } from 'react-router-dom';
+import img from '../img/download.png'
 
 
 const Week6Blog = () => {
   return (
-    <div className="container">
+    <body className='individual-body'>
+    <div className="individual-blog">
       <h1>Week 6 - React Intro</h1>
+      <div className="text-container">
       <h2>Are javascript frameworks and libraries easy or hard to use?</h2>
       <p>Well, learning them is already becoming a pain in the ass, but in a lot of respects, I would say easier in the long run. It is certainly confusing right now to connect all of these individual js pages as well as switching to a new method of javascript immediately following any understanding of javascript.</p>
-
+      <img src={img}></img>
       <h2>What Frameworks or Libraries are you interested in learning more about?</h2>
       <p>Seeing as how I've barely touched this so far, I feel like this would be a better question a week or two from now! But after a little further review, Next.js has been what we're working with, so that for now (haha). All jokes aside, I've seen material-ui and I have an interest in creating an app or two, or gaining at least rudimentary experience in this topic.</p>
 
@@ -25,6 +28,8 @@ const Week6Blog = () => {
         </ul>
       </p>
     </div>
+    </div>
+    </body>
   );
 };
 

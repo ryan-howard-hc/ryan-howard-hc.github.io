@@ -1,13 +1,16 @@
 import React from 'react';
 import './00bloga.css';
 import { Link } from 'react-router-dom';
+import img from '../img/0_ZjYSm_q36J4KChdn.jpg'
 
 
 const Week3Blog = () => {
   return (
-    <div className="container">
+    <body className='individual-body'>
+    <div className="individual-blog">
       <h1>Week 3! (Weak 3!)</h1>
-      <img src="/portfolio/img/0_ZjYSm_q36J4KChdn.jpg" alt="Week 3" />
+      <div className="text-container">
+      <img src={img} alt="Week 3" />
       <h2>Holding me back</h2>
       <p>Javascript is ridiculously difficult for me to wrap my head around. Mostly it's difficult to sit down and interpret how to approach the actual problem. Solving the problem is less as difficult, but seeing the actual goalpost for me rather than kicking the ball in has been the bane of my existence this week. The mindreader project had me struggling more than all the others combined thus far. Let's just hope it doesn't stay that way!</p>
       <br />
@@ -17,6 +20,8 @@ const Week3Blog = () => {
       <h2>What's your 'Why'?</h2>
       <p>I want to find something that meshes well with the lifestyle I'd enjoy pursuing. I am always eager about learning, but not always eager to fall down and have to get up instead of just sleeping there (haha). The reaches of this profession are almost limitless in this day and age, and I'd like to have the proper skills to chase any ambitions. Maybe this will lead into or open up the gates for a career in video game development? Who knows? Either way, I'm here!</p>
     </div>
+    </div>
+    </body>
   );
 };
 

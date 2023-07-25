@@ -154,7 +154,7 @@ const BlogJourney = () => {
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card" style={{ height: "100%", border: "1px" }}>
-                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/365360/ss_5c6341f7d80b424d962006d28e47e48b619203ac.1920x1080.jpg?t=1667298527" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week8" />
+                <img src="https://www.collinsdictionary.com/images/full/snakecharmer_118198594.jpg" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week8" />
                 <div className="card-body">
                   <h5 className="card-title">Week 9 || Mastering the Punji</h5>
                   <p className="card-text">Hypnosis complete</p>

@@ -5,8 +5,10 @@ import { Link } from 'react-router-dom';
 
 const Week2Blog = () => {
   return (
-    <div className="container">
+    <body className='individual-body'>
+    <div className="individual-blog">
       <h1>HTML, CSS, AND JS</h1>
+      <div className="text-container">
       <p>HTML was surprisingly straightforward and relatively simple. Cascading Style Sheets can definitely be a lot of fun to tinker with, but as I'm starting bootstrap, it seems secondary to that. Lastly, Javascript is a huge pain in the ass to learn, but I'm hoping with time it will become secondhand.</p>
 
       <h2>Pseu-pseu-pseucoding</h2>
@@ -20,6 +22,8 @@ const Week2Blog = () => {
       <h2>Overcoming challenges</h2>
       <p>Being able to find answers when I need to, refining my searches, and interpreting what the code means after has truly helped. Otherwise, I'd be sitting around, looking at foreign material, panicking, not getting anything done.. rinse, repeat as it snowballs.</p>
     </div>
+    </div>
+    </body>
   );
 };
 
