@@ -1,5 +1,12 @@
 @import url("~bootstrap/dist/css/bootstrap.min.css");
 /* @import "bootstrap-icons@1.10.5/font/bootstrap-icons.css"; */
+
+
+@font-face {
+  font-family: 'Audiowide-Regular';
+  src: url('./css/Audiowide-Regular.ttf') format('truetype');
+} 
+
 .blogMain {
   display: flex;
   justify-content: center;
@@ -52,7 +59,7 @@
 
 .custom-header {
   background-color: rgba(0, 255, 128, 0.068) !important;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Audiowide-regular', sans-serif;
 }
 
 a {

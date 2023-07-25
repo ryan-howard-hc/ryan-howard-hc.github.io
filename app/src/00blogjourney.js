@@ -10,25 +10,30 @@ import img5 from "./img/Contact-Card-Icons/IMG_4615.JPG";
 const BlogJourney = () => {
   return (
     <div className="blogjourney">
-      <header style={{ backgroundColor: "rgba(0, 255, 128, 0.068)", fontFamily: "Verdana, Geneva, Tahoma, sans-serif" }}>
+      <header style={{ backgroundColor: "rgba(0, 255, 128, 0.068)"}}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-4">
               <div className="header-content">
                 <div className="header-left d-flex flex-column align-items-center weeklinks">
-                  <h5 className="fw-bold mt-1" style={{ color: "#f8f8f8" }}>Blog Posts</h5>
-                  <Link to="/02blogweek1" className="nav-link fst-italic">Week 1</Link>
-                  <Link to="/02blogweek2" className="nav-link fst-italic">Week 2</Link>
-                  <Link to="/02blogweek3" className="nav-link fst-italic">Week 3</Link>
-                  <Link to="/02blogweek4" className="nav-link fst-italic">Week 4</Link>
-                  <Link to="/02blogweek5" className="nav-link fst-italic">Week 5</Link>
-                  <Link to="/02blogweek6" className="nav-link fst-italic">Week 6</Link>
-                  <Link to="/02blogweek7" className="nav-link fst-italic">Week 7</Link>
-                  <Link to="/02blogweek8" className="nav-link fst-italic">Week 8</Link>
+                  <h5 className="fw-bold mt-1" style={{ color: "#f8f8f8", fontFamily: "Audiowide-regular" }}>Blog Posts</h5>
+                  <div className="row">
+                    <div className="col" style={{ paddingLeft: "100px" }}>
+                      <Link to="/02blogweek1" className="nav-link fst-italic">Week 1</Link>
+                      <Link to="/02blogweek2" className="nav-link fst-italic">Week 2</Link>
+                      <Link to="/02blogweek3" className="nav-link fst-italic">Week 3</Link>
+                      <Link to="/02blogweek4" className="nav-link fst-italic">Week 4</Link>
+                    </div>
+                    <div className="col">
+                      <Link to="/02blogweek5" className="nav-link fst-italic">Week 5</Link>
+                      <Link to="/02blogweek6" className="nav-link fst-italic">Week 6</Link>
+                      <Link to="/02blogweek7" className="nav-link fst-italic">Week 7</Link>
+                      <Link to="/02blogweek8" className="nav-link fst-italic">Week 8</Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
             <div className="col-md-4">
               <div className="header-content text-center">
                 <div className="rounded-circle mt-2" style={{ width: "200px", height: "200px", position: "relative", overflow: "hidden", margin: "0 auto" }}>
@@ -36,8 +41,8 @@ const BlogJourney = () => {
                     <img src={img5} className="img-fluid" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "cover", borderRadius: "50%" }} alt="Profile" />
                   </div>
                 </div>
-                <h1 className="headtitle" style={{ color: "#f8f8f8" }}>Ryan Howard</h1>
-                <p style={{ color: "#f8f8f8" }}>Full-Stack Developer</p>
+                <h1 className="headtitle" style={{ color: "#f8f8f8", fontFamily: "Audiowide-regular"}}>Ryan Howard</h1>
+                <p style={{ color: "#f8f8f8",fontFamily: "Audiowide-regular" }}>Full-Stack Developer</p>
               </div>
             </div>
 
@@ -45,7 +50,8 @@ const BlogJourney = () => {
               <div className="text-center">
                 <div className="sticky-container">
                   <div className="row sociallinks">
-                    <h5 className="fw-bold" style={{ color: "#f8f8f8" }}>Get to know me!</h5>
+                    <h5 className="fw-bold" style={{ color: "#f8f8f8",fontFamily: "Audiowide-regular" }}>Get to know me!</h5>
+                    
                     <Link to="/01aboutme" className="nav-link fst-italic">About me!</Link>
                     <a className="nav-link fst-italic" href="https://www.linkedin.com/in/ryan-matthew-howard-566b49277/">LinkedIn</a>
                     <a className="nav-link fst-italic" href="https://github.com/ryan-howard-hc">GitHub</a>
@@ -63,7 +69,7 @@ const BlogJourney = () => {
 
       <section id="blog" className="py-4">
         <div className="container-fluid">
-          <h2 className="text-center mb-4" style={{ color: "#f8f8f8" }}>Blog journey</h2>
+          <h2 className="text-center mb-4" style={{ color: "#f8f8f8", marginRight: "30px" }}>Blog journey</h2>
           <div className="row">
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card" style={{ height: "100%", border: "1px" }}>
