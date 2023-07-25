@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Week8Blog = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Week 8 || HALFWAY!!!</h1>
       <h2>Biggest Hurdle of the Bootcamp? Next Mountain to Climb?</h2>
       <p>Without a doubt, the biggest hurdle has been my own mind. I'm very proficient in Front End programming. I'd wager I'm doing much better than I think I am, though I'm constantly having doubts and dealing with my self-worth. Also, as a terrible test-taker, whiteboard interviews have been daunting, to say the least. Even being well-versed in a subject, there is something about your boss or professor watching as you try to solve a problem on the spot. One of those moments where all of a sudden, you know nothing. As far as the subject matter, the biggest hurdle would have been learning Javascript. In some ways, it seems like reading backward. I've always been pretty solid with puzzle-solving and math equations, but some problems seem overly complicated or unnecessarily convoluted. Some of the syntax seems like it was first created by a person with no understanding of the English language.</p>

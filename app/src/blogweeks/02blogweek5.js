@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Week5Blog = () => {
   return (
-    <div>
+    <div className="container">
       <h1>WEEK 5!</h1>
       <h2>What exactly is pseudocode?</h2>
       <p>Simply put, pseudocode is a rudimentary step of instructions which is intended to be read by people rather than machine reading. It's an easy way to draw out a basic idea or plan on how to tackle an issue or task in computer science. You take this rough draft of sorts to outline what your attack plan on building algorithms and the complementary structure surrounding it. It's a good way to express algorithms and logic in a more human-readable format. It uses a combination of natural language phrases and basic programming constructs to represent the flow of control and the sequence of steps in a program.</p>

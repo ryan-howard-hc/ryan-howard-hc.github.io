@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Week7Blog = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Week 7 - CLI</h1>
       <img src="/portfolio/img/2023-07-10 15_18_51-When you hack into the mainframe and disable their algorithms _ antimeme.png" alt="CLI Meme" />
       <h2>What have you learned about CLIs? Do you think they are scary?</h2>

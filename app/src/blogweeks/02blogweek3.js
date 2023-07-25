@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Week3Blog = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Week 3! (Weak 3!)</h1>
       <img src="/portfolio/img/0_ZjYSm_q36J4KChdn.jpg" alt="Week 3" />
       <h2>Holding me back</h2>

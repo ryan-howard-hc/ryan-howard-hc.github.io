@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Week6Blog = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Week 6 - React Intro</h1>
       <h2>Are javascript frameworks and libraries easy or hard to use?</h2>
       <p>Well, learning them is already becoming a pain in the ass, but in a lot of respects, I would say easier in the long run. It is certainly confusing right now to connect all of these individual js pages as well as switching to a new method of javascript immediately following any understanding of javascript.</p>

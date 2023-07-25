@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'MontserratAlternates-Bold';
+  src: url('../css/MontserratAlternates-Bold.otf') format('truetype');
+} 
+
+@font-face {
+  font-family: 'Lobster_1.3';
+  src: url('../css/Lobster_1.3.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium-Bold';
+  src: url('../css/Titillium-Bold.otf') format('truetype');
+}
+
+
+body {
+  color: rgb(5, 4, 4) !important;
+  font-family: 'Titillium-Bold' !important;
+  font-size: 24px !important;
+  background-image: url(../img/leone-venter-VieM9BdZKFo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-left: 20px !important;
+  margin-right: 700px !important;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container {
+  max-width: 600px;
+  margin-left: 20px;
+  text-align: justify; /* Add text justification for the entire container */
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'MontserratAlternates-Bold', sans-serif;
+}
+
+p {
+  padding-bottom: 20px; /* Add 20px of padding beneath each paragraph */
+}

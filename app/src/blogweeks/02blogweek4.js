@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Week4Blog = () => {
   return (
-    <div>
+    <div className="container">
       <h1>WEEK 4! Sprint 2</h1>
       <h1>What did I learn about the development process?</h1>
       <p>I learned quite a bit, I learned I need to slow down my learning process, and actually absorb what I am doing. In the same vein, I learned to take a nap if you're not processing the information. More specifically, I learned the importance of a kind of derivative thinking regarding most functions. I learned how to organize my code properly, having almost a 'key' for my variables. I'm learning I need to stop extra time reading over materials on the weekends. NO REST!</p>

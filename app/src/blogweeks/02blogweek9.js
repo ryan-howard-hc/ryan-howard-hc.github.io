@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Week9Blog = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Week 9</h1>
       <h2>Similarities and differences of JS and Python for me?</h2>
       <p>First off both languages support multiple programming paradigms, such as procedural, object-oriented, and functional programming styles. They both variables to hold values of any data type without explicit type declarations. You can hold different points in code without explicit type declarations like in C++. Lastly both follow a similar method of programming; procedural, object-oriented, and functional.</p>

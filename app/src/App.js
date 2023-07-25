@@ -5,14 +5,15 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import BlogJourney from './00blogjourney';
 import AboutMe from './01aboutme';
-import Week1Blog from './02blogweek1';
-import Week2Blog from './02blogweek2';
-import Week3Blog from './02blogweek3';
-import Week4Blog from './02blogweek4';
-import Week5Blog from './02blogweek5'; 
-import Week6Blog from './02blogweek6'; 
-import Week7Blog from './02blogweek7';
-import Week8Blog from './02blogweek8'; 
+import Week1Blog from './blogweeks/02blogweek1';
+import Week2Blog from './blogweeks/02blogweek2';
+import Week3Blog from './blogweeks/02blogweek3';
+import Week4Blog from './blogweeks/02blogweek4';
+import Week5Blog from './blogweeks/02blogweek5'; 
+import Week6Blog from './blogweeks/02blogweek6'; 
+import Week7Blog from './blogweeks/02blogweek7';
+import Week8Blog from './blogweeks/02blogweek8'; 
+import Week9Blog from './blogweeks/02blogweek9';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/02blogweek6" component={Week6Blog} />
           <Route path="/02blogweek7" component={Week7Blog} />
           <Route path="/02blogweek8" component={Week8Blog} />
+          <Route path="/02blogweek9" component={Week9Blog} />
         </Switch>
 
     </Router>
