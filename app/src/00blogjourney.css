@@ -1,6 +1,6 @@
 @import url("~bootstrap/dist/css/bootstrap.min.css");
 /* @import "bootstrap-icons@1.10.5/font/bootstrap-icons.css"; */
-/* #blogMain {
+.blogMain {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,9 +43,9 @@
   position: sticky;
   top: 0;
   z-index: 100;
-} */
+}
 
-body {
+.blogjourney {
   background-image: url('https://images.pexels.com/photos/3178786/pexels-photo-3178786.jpeg');
   color: aliceblue;
 }

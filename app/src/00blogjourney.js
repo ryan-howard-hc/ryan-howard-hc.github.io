@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './00blogjourney.css';
 import img1 from "./img/0_ZjYSm_q36J4KChdn.jpg";
 import img2 from "./img/talosiannn.jpg";
 import img3 from "./img/memento-featured.jpg";
@@ -8,14 +9,14 @@ import img5 from "./img/Contact-Card-Icons/IMG_4615.JPG";
 
 const BlogJourney = () => {
   return (
-    <div>
+    <div className="blogjourney">
       <header style={{ backgroundColor: "rgba(0, 255, 128, 0.068)", fontFamily: "Verdana, Geneva, Tahoma, sans-serif" }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-4">
               <div className="header-content">
                 <div className="header-left d-flex flex-column align-items-center weeklinks">
-                  <h5 className="fw-bold mt-1">Blog Posts</h5>
+                  <h5 className="fw-bold mt-1" style={{ color: "#f8f8f8" }}>Blog Posts</h5>
                   <Link to="/02blogweek1" className="nav-link fst-italic">Week 1</Link>
                   <Link to="/02blogweek2" className="nav-link fst-italic">Week 2</Link>
                   <Link to="/02blogweek3" className="nav-link fst-italic">Week 3</Link>
@@ -35,8 +36,8 @@ const BlogJourney = () => {
                     <img src={img5} className="img-fluid" style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "cover", borderRadius: "50%" }} alt="Profile" />
                   </div>
                 </div>
-                <h1 className="headtitle">Ryan Howard</h1>
-                <p>Full-Stack Developer</p>
+                <h1 className="headtitle" style={{ color: "#f8f8f8" }}>Ryan Howard</h1>
+                <p style={{ color: "#f8f8f8" }}>Full-Stack Developer</p>
               </div>
             </div>
 
@@ -44,7 +45,7 @@ const BlogJourney = () => {
               <div className="text-center">
                 <div className="sticky-container">
                   <div className="row sociallinks">
-                    <h5 className="fw-bold">Get to know me!</h5>
+                    <h5 className="fw-bold" style={{ color: "#f8f8f8" }}>Get to know me!</h5>
                     <Link to="/01aboutme" className="nav-link fst-italic">About me!</Link>
                     <a className="nav-link fst-italic" href="https://www.linkedin.com/in/ryan-matthew-howard-566b49277/">LinkedIn</a>
                     <a className="nav-link fst-italic" href="https://github.com/ryan-howard-hc">GitHub</a>
@@ -62,7 +63,7 @@ const BlogJourney = () => {
 
       <section id="blog" className="py-4">
         <div className="container-fluid">
-          <h2 className="text-center mb-4">Blog journey</h2>
+          <h2 className="text-center mb-4" style={{ color: "#f8f8f8" }}>Blog journey</h2>
           <div className="row">
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card" style={{ height: "100%", border: "1px" }}>
@@ -148,13 +149,12 @@ const BlogJourney = () => {
         </div>
       </section>
       <section id="blogMain" class="">
-        <div class="row">
-          <div class="col-11  ms-5 ">
-    
-              <iframe src="/blogweek1.html" class="preview-iframe"></iframe>
-          </div>
-          </div>
-        </section>
+  <div class="row">
+    <div class="col-11  ms-5 ">
+      <iframe src="/blogweek1" class="preview-iframe"></iframe>
+    </div>
+  </div>
+</section>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
