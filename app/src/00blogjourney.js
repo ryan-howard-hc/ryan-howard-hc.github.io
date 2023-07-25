@@ -1,19 +1,15 @@
 import React from 'react';
-import './00blogjourney.css';
 import { Link } from 'react-router-dom';
 import img1 from "./img/0_ZjYSm_q36J4KChdn.jpg";
 import img2 from "./img/talosiannn.jpg";
 import img3 from "./img/memento-featured.jpg";
 import img4 from "./img/2023-07-10 15_18_51-When you hack into the mainframe and disable their algorithms _ antimeme.png";
 import img5 from "./img/Contact-Card-Icons/IMG_4615.JPG";
-// import "~bootstrap/dist/css/bootstrap.min.css";
-
-
 
 const BlogJourney = () => {
   return (
     <div>
-       <header className="custom-header bg-primary-subtle border-5 border-white">
+      <header style={{ backgroundColor: "rgba(0, 255, 128, 0.068)", fontFamily: "Verdana, Geneva, Tahoma, sans-serif" }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-4">
@@ -28,7 +24,6 @@ const BlogJourney = () => {
                   <Link to="/02blogweek6" className="nav-link fst-italic">Week 6</Link>
                   <Link to="/02blogweek7" className="nav-link fst-italic">Week 7</Link>
                   <Link to="/02blogweek8" className="nav-link fst-italic">Week 8</Link>
-
                 </div>
               </div>
             </div>
@@ -50,7 +45,6 @@ const BlogJourney = () => {
                 <div className="sticky-container">
                   <div className="row sociallinks">
                     <h5 className="fw-bold">Get to know me!</h5>
-
                     <Link to="/01aboutme" className="nav-link fst-italic">About me!</Link>
                     <a className="nav-link fst-italic" href="https://www.linkedin.com/in/ryan-matthew-howard-566b49277/">LinkedIn</a>
                     <a className="nav-link fst-italic" href="https://github.com/ryan-howard-hc">GitHub</a>
@@ -71,8 +65,8 @@ const BlogJourney = () => {
           <h2 className="text-center mb-4">Blog journey</h2>
           <div className="row">
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="card">
-                <img src="https://consequence.net/wp-content/uploads/2018/11/they-live.jpg?quality=80" className="card-img-top custom-img-size" alt="Week1" />
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src="https://consequence.net/wp-content/uploads/2018/11/they-live.jpg?quality=80" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week1" />
                 <div className="card-body">
                   <h5 className="card-title">Week 1</h5>
                   <p className="card-text">What'd I get myself into</p>
@@ -81,8 +75,8 @@ const BlogJourney = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="card">
-                <img src="https://i.ytimg.com/vi/r0qBaBb1Y-U/hqdefault.jpg" className="card-img-top custom-img-size" alt="Week2" />
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src="https://i.ytimg.com/vi/r0qBaBb1Y-U/hqdefault.jpg" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week2" />
                 <div className="card-body">
                   <h5 className="card-title">Week 2</h5>
                   <p className="card-text">Pseu-pseu-pseucoding</p>
@@ -91,8 +85,8 @@ const BlogJourney = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="card">
-                <img src={img1} className="card-img-top custom-img-size" alt="Week3" />
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src={img1} className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week3" />
                 <div className="card-body">
                   <h5 className="card-title">Week (WEAK) 3</h5>
                   <p className="card-text">This is fine..</p>
@@ -101,8 +95,8 @@ const BlogJourney = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="card">
-                <img src={img2} className="card-img-top custom-img-size" alt="Week4" />
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src={img2} className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week4" />
                 <div className="card-body">
                   <h5 className="card-title">Week 4</h5>
                   <p className="card-text">okayokayokay</p>
@@ -111,8 +105,8 @@ const BlogJourney = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="card">
-                <img src={img3} className="card-img-top custom-img-size" alt="Week5" />
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src={img3} className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week5" />
                 <div className="card-body">
                   <h5 className="card-title">Week 5</h5>
                   <p className="card-text">Pseudo Part Deux</p>
@@ -121,8 +115,8 @@ const BlogJourney = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="card">
-                <img src="https://www.brookings.edu/wp-content/uploads/2016/06/mushroom_cloud001.jpg?w=1500" className="card-img-top custom-img-size" alt="Week6" />
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src="https://www.brookings.edu/wp-content/uploads/2016/06/mushroom_cloud001.jpg?w=1500" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week6" />
                 <div className="card-body">
                   <h5 className="card-title">Week 6</h5>
                   <p className="card-text">React, Adapt, React</p>
@@ -131,8 +125,8 @@ const BlogJourney = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="card">
-                <img src={img4} className="card-img-top custom-img-size" alt="Week7" />
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src={img4} className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week7" />
                 <div className="card-body">
                   <h5 className="card-title">Week 7</h5>
                   <p className="card-text">C,L,WhoAmI?</p>
@@ -141,8 +135,8 @@ const BlogJourney = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
-              <div className="card">
-                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/365360/ss_5c6341f7d80b424d962006d28e47e48b619203ac.1920x1080.jpg?t=1667298527" className="card-img-top custom-img-size" alt="Week8" />
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/365360/ss_5c6341f7d80b424d962006d28e47e48b619203ac.1920x1080.jpg?t=1667298527" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week8" />
                 <div className="card-body">
                   <h5 className="card-title">Week 8 || HALFWAY!</h5>
                   <p className="card-text">Dabbling with the Python / Snake Charming</p>
@@ -153,6 +147,14 @@ const BlogJourney = () => {
           </div>
         </div>
       </section>
+      <section id="blogMain" class="">
+        <div class="row">
+          <div class="col-11  ms-5 ">
+    
+              <iframe src="/blogweek1.html" class="preview-iframe"></iframe>
+          </div>
+          </div>
+        </section>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>

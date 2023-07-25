@@ -1,5 +1,5 @@
 import React from 'react';
-import './02blogweekcss.css';
+import './00bloga.css';
 import { Link } from 'react-router-dom';
 
 
