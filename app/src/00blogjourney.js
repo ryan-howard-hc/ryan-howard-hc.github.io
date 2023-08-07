@@ -24,12 +24,14 @@ const BlogJourney = () => {
                       <Link to="/02blogweek3" className="nav-link fst-italic">Week 3</Link>
                       <Link to="/02blogweek4" className="nav-link fst-italic">Week 4</Link>
                       <Link to="/02blogweek5" className="nav-link fst-italic">Week 5</Link>
+                      <Link to="/02blogweek6" className="nav-link fst-italic">Week 6</Link>
                     </div>
                     <div className="col">
-                      <Link to="/02blogweek6" className="nav-link fst-italic">Week 6</Link>
                       <Link to="/02blogweek7" className="nav-link fst-italic">Week 7</Link>
                       <Link to="/02blogweek8" className="nav-link fst-italic">Week 8</Link>
                       <Link to="/02blogweek9" className="nav-link fst-italic">Week 9</Link>
+                      <Link to="/02blogweek10" className="nav-link fst-italic">Week 10</Link>
+                      <Link to="/02blogweek11" className="nav-link fst-italic">Week 11</Link>
                     </div>
                   </div>
                 </div>
@@ -154,11 +156,31 @@ const BlogJourney = () => {
             </div>
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card" style={{ height: "100%", border: "1px" }}>
-                <img src="https://www.collinsdictionary.com/images/full/snakecharmer_118198594.jpg" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week8" />
+                <img src="https://www.collinsdictionary.com/images/full/snakecharmer_118198594.jpg" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week9" />
                 <div className="card-body">
                   <h5 className="card-title">Week 9 || Mastering the Punji</h5>
                   <p className="card-text">Hypnosis complete</p>
                   <Link to="/02blogweek9" className="btn btn-primary">Curious?</Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src="https://media.npr.org/assets/music/news/2010/01/django-c9adb735a15e716afbf59663b7258c055f38b4f4-s1100-c50.jpg" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week10" />
+                <div className="card-body">
+                  <h5 className="card-title">Week 10</h5>
+                  <p className="card-text">Django Reinhardt would be proud</p>
+                  <Link to="/02blogweek10" className="btn btn-primary">Curious?</Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-4">
+              <div className="card" style={{ height: "100%", border: "1px" }}>
+                <img src="https://64.media.tumblr.com/3753fd3b76cce4da9e0da270090d7b8a/tumblr_inline_pr8u623UpC1qbycn1_500.png" className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="Week11" />
+                <div className="card-body">
+                  <h5 className="card-title">Week 11</h5>
+                  <p className="card-text">Back to the Future</p>
+                  <Link to="/02blogweek11" className="btn btn-primary">Curious?</Link>
                 </div>
               </div>
             </div>
