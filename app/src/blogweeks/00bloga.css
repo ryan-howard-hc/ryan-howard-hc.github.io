@@ -18,9 +18,9 @@
   color: rgb(5, 4, 4) !important;
   font-family: 'Titillium-Bold' !important;
   font-size: 24px !important;
-  background-image: url(../img/leone-venter-VieM9BdZKFo-unsplash.jpg);
+  background: url(../img/leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat center center fixed;
   background-size: cover !important;
-  background-repeat: no-repeat;
+  background-attachment: scroll !important;
   height: auto;
   padding-left: 20px !important;
   display: flex;
@@ -28,13 +28,14 @@
   padding-top: 20px;
 }
 
+
 .individual-blog {
   margin-left: 20px;
   text-align: justify; 
 }
 
 .text-container {
-  padding-right: 700px; /* Adjust the padding as needed */
+  padding-right: 450px; /* Adjust the padding as needed */
 }
 
 .individual-blog img {
@@ -53,3 +54,6 @@
 .individual-blog p {
   padding-bottom: 20px; 
 }
+
+
+

@@ -15,9 +15,10 @@ const Week10Blog = () => {
         <h2>What companies or people (local or not) would you like to hear talk during a Bootcamp lunch and learn?</h2>
         <p>Honestly, any of them. Opportunities, both educational and career-oriented, would be valuable to me at this time. Id love to learn more of the day to day, about the companies I may potentially be working with or for are like. Id love to know the most valuable trade-skills are and the best methods of learning. Even apax, the company that runs the Awesome Inc bootcamp. Bitwerx, farm-credit again or even any large companies that are friendly towards newbie developers!</p>
       <br></br>
+      <img src="https://www.touchbistro.com/wp-content/uploads/2020/11/server-memes-inset-7.jpg"></img>
+
         <h2>After having built your first full-stack application, what things in your repertoire are a sticking point for you?</h2>
         <p>All of them seem incredibly useful. While I've become proficient in setting up basic databases and performing CRUD (Create, Read, Update, Delete) operations, I find myself touching on more complex database management tasks. Implementing user authentication and ensuring the security of user data is a critical aspect of any full-stack application, so Id love to learn more about this.  I also find it challenging to strike the right balance between writing testing for quality assurance, but once again is a necessity to the industry. I find API's interesting as well in their own regard. I'm think im going to focus on refining my API design skills and creating comprehensive APIs that are user-friendly for both internal and external developers. I was successful in connecting my React Restaurant project to the Backend django framework, though I didnt have enough time or practice involving this as I would have liked. I intend to go back and flesh it out for my own knowledge.</p>
-        <img src="https://www.touchbistro.com/wp-content/uploads/2020/11/server-memes-inset-7.jpg"></img>
       </div>
       </div>
       </body>

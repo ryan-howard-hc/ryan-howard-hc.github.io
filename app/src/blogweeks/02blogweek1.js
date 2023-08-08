@@ -5,6 +5,7 @@ import img from '../img/Snapchat-1938554291.jpg';
 
 
 const Week1Blog = () => {
+  
   return (
     <body className='individual-body'>
     <div className="individual-blog">
