@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'MontserratAlternates-Bold';
+  src: url('../css/MontserratAlternates-Bold.otf') format('truetype');
+} 
+
+@font-face {
+  font-family: 'Lobster_1.3';
+  src: url('../css/Lobster_1.3.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium-Bold';
+  src: url('../css/Titillium-Bold.otf') format('truetype');
+}
+
+
+.individual-body {
+  color: rgb(5, 4, 4) !important;
+  font-family: 'Titillium-Bold' !important;
+  font-size: 24px !important;
+  background: url(../img/leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover !important;
+  background-attachment: scroll !important;
+  height: auto;
+  padding-left: 20px !important;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+
+.individual-blog {
+  margin-left: 20px;
+  text-align: justify; 
+}
+
+.text-container {
+  padding-right: 450px; /* Adjust the padding as needed */
+}
+
+.individual-blog img {
+  max-width: 45%; 
+  height: auto;
+  float: right;
+  margin: 0 0 20px 20px; 
+  opacity: 0.85; 
+  border-radius: 40px;
+}
+
+.individual-blog h1, .individual-blog h2, .individual-blog h3,.individual-blog h4,.individual-blog h5,.individual-blog h6 {
+  font-family: 'MontserratAlternates-Bold', sans-serif;
+}
+
+.individual-blog p {
+  padding-bottom: 20px; 
+}
+
+
+
