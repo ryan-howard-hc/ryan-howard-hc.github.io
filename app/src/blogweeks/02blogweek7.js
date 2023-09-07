@@ -10,7 +10,7 @@ const Week7Blog = () => {
     <div className="individual-blog">
       <h1>Week 7 - CLI</h1>
       <div className="text-container">
-      <img src="/portfolio/img/2023-07-10 15_18_51-When you hack into the mainframe and disable their algorithms _ antimeme.png" alt="CLI Meme" />
+      <img src="/portfolio/img/mainframe.png" alt="CLI Meme" />
       <h2>What have you learned about CLIs? Do you think they are scary?</h2>
       <p>At first glance, yes, CLIs are scary. After learning rudimentary coding experience, it's more of an experiential problem. What are they useful for? They allow for relatively easy navigation through file systems using basic commands. They also provide built-in systems that offer commands for this navigation and for controlling the system. Another very important use for CLIs is that they allow scripting and automating repetitive tasks involved in command executions. Lastly, they enable remote access/networking and can be used to establish secure connections remotely and check connectivity.</p>
       <img src={img}></img>
