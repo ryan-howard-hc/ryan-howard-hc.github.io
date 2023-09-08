@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2703a0c.css",
-    "main.js": "/static/js/main.1a578bcc.js",
-    "static/media/IMG_4615.JPG": "/static/media/IMG_4615.028f01e25988cf884679.JPG",
-    "static/media/Snapchat-1938554291.jpg": "/static/media/Snapchat-1938554291.bfff7d46d3827150ea09.jpg",
-    "static/media/leone-venter-VieM9BdZKFo-unsplash.jpg": "/static/media/leone-venter-VieM9BdZKFo-unsplash.ac013b95bdc8c202fd42.jpg",
-    "static/media/mainframe.png": "/static/media/mainframe.b02d4e39dd97711fe9a9.png",
-    "static/media/MontserratAlternates-Bold.otf": "/static/media/MontserratAlternates-Bold.1956f7f0cd4125a68500.otf",
-    "static/media/image.jpg": "/static/media/image.b257f4d269aeb07e8956.jpg",
-    "static/media/memento-featured.jpg": "/static/media/memento-featured.111f6dbb7fdcf42c80e6.jpg",
-    "static/media/0_ZjYSm_q36J4KChdn.jpg": "/static/media/0_ZjYSm_q36J4KChdn.1e4ff96cbe1793812ba3.jpg",
-    "static/media/talosiannn.jpg": "/static/media/talosiannn.80af7bd553f17871c3ad.jpg",
-    "static/media/Titillium-Bold.otf": "/static/media/Titillium-Bold.db3b94acb19be92348dd.otf",
-    "static/media/Audiowide-Regular.ttf": "/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
-    "static/media/large_0.jpg": "/static/media/large_0.d428821b314dccd76ea7.jpg",
-    "static/media/Lobster_1.3.otf": "/static/media/Lobster_1.3.5dac3df5d14e11ce5242.otf",
-    "index.html": "/index.html",
-    "main.b2703a0c.css.map": "/static/css/main.b2703a0c.css.map",
-    "main.1a578bcc.js.map": "/static/js/main.1a578bcc.js.map"
+    "main.css": "/portfolio/static/css/main.1944a945.css",
+    "main.js": "/portfolio/static/js/main.0ae33723.js",
+    "static/media/IMG_4615.JPG": "/portfolio/static/media/IMG_4615.028f01e25988cf884679.JPG",
+    "static/media/Snapchat-1938554291.jpg": "/portfolio/static/media/Snapchat-1938554291.bfff7d46d3827150ea09.jpg",
+    "static/media/leone-venter-VieM9BdZKFo-unsplash.jpg": "/portfolio/static/media/leone-venter-VieM9BdZKFo-unsplash.ac013b95bdc8c202fd42.jpg",
+    "static/media/mainframe.png": "/portfolio/static/media/mainframe.b02d4e39dd97711fe9a9.png",
+    "static/media/MontserratAlternates-Bold.otf": "/portfolio/static/media/MontserratAlternates-Bold.1956f7f0cd4125a68500.otf",
+    "static/media/image.jpg": "/portfolio/static/media/image.b257f4d269aeb07e8956.jpg",
+    "static/media/memento-featured.jpg": "/portfolio/static/media/memento-featured.111f6dbb7fdcf42c80e6.jpg",
+    "static/media/0_ZjYSm_q36J4KChdn.jpg": "/portfolio/static/media/0_ZjYSm_q36J4KChdn.1e4ff96cbe1793812ba3.jpg",
+    "static/media/talosiannn.jpg": "/portfolio/static/media/talosiannn.80af7bd553f17871c3ad.jpg",
+    "static/media/Titillium-Bold.otf": "/portfolio/static/media/Titillium-Bold.db3b94acb19be92348dd.otf",
+    "static/media/Audiowide-Regular.ttf": "/portfolio/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
+    "static/media/large_0.jpg": "/portfolio/static/media/large_0.d428821b314dccd76ea7.jpg",
+    "static/media/Lobster_1.3.otf": "/portfolio/static/media/Lobster_1.3.5dac3df5d14e11ce5242.otf",
+    "index.html": "/portfolio/index.html",
+    "main.1944a945.css.map": "/portfolio/static/css/main.1944a945.css.map",
+    "main.0ae33723.js.map": "/portfolio/static/js/main.0ae33723.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2703a0c.css",
-    "static/js/main.1a578bcc.js"
+    "static/css/main.1944a945.css",
+    "static/js/main.0ae33723.js"
   ]
 }
