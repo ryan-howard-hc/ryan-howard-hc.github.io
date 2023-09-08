@@ -42,14 +42,7 @@ const App = () => {
   );
 };
 
-// const App = () => {
-//   return (
-// <div>
-//   <p>hello world</p>
-// </div>
 
-//   );
-// };
 export default App;
 
 // import React from 'react';
