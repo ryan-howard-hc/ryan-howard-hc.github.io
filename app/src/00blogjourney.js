@@ -141,6 +141,18 @@ const BlogJourney = () => {
           text: "Ah-Gee-Lay",
           link: "/02blogweek12"
         },
+        {
+          img: "https://i.pinimg.com/550x/e5/2b/de/e52bdec41033c4a401d062aef8cb46c0.jpg",
+          title: "Week 13",
+          text: "Green Tech",
+          link: "/02blogweek13"
+        },
+        {
+          img: "https://3.bp.blogspot.com/--JbjotRJV6k/UaNKQQ1wATI/AAAAAAAABE4/WkEKbY3skck/s1600/1.png",
+          title: "Week 14",
+          text: "Leap of Faith",
+          link: "/02blogweek14"
+        }
       ].map((card, index) => (
         <div key={index} className="col-lg-4 col-md-6 mb-4">
           <div className="card" style={{ height: "100%", border: "1px" }}>
