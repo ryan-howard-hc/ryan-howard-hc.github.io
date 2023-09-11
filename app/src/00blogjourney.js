@@ -19,12 +19,12 @@ const BlogJourney = () => {
             <h5 className="fw-bold mt-1" style={{ color: "#f8f8f8", fontFamily: "Audiowide-regular" }}>Blog Posts</h5>
             <div className="row">
               <div className="col" style={{ paddingLeft: "100px" }}>
-                {[1, 2, 3, 4, 5, 6].map((week) => (
+                {[1, 2, 3, 4, 5, 6, 7].map((week) => (
                   <Link key={week} to={`/02blogweek${week}`} className="nav-link fst-italic">Week {week}</Link>
                 ))}
               </div>
               <div className="col">
-                {[7, 8, 9, 10, 11, 12].map((week) => (
+                {[ 8, 9, 10, 11, 12, 13, 14].map((week) => (
                   <Link key={week} to={`/02blogweek${week}`} className="nav-link fst-italic">Week {week}</Link>
                 ))}
               </div>
@@ -156,7 +156,7 @@ const BlogJourney = () => {
       ].map((card, index) => (
         <div key={index} className="col-lg-4 col-md-6 mb-4">
           <div className="card" style={{ height: "100%", border: "1px" }}>
-            <img src={card.img} className="card-img-top custom-img-size" style={{ width: "100%", height: "100%", objectFit: "cover" }} alt={`Week ${index + 1}`} />
+          <img src={card.img} className="card-img-top custom-img-size" style={{ width: "100%", height: "100%" }} alt={`Week ${index + 1}`} />
             <div className="card-body">
               <h5 className="card-title">{card.title}</h5>
               <p className="card-text">{card.text}</p>
@@ -171,7 +171,7 @@ const BlogJourney = () => {
       <section id="blogMain" className="">
   <div className="row">
     <div className="col-11  ms-5 ">
-      <iframe src="/blogweek1" className="preview-iframe"></iframe>
+      <iframe src="/02blogweek1" className="preview-iframe"></iframe>
     </div>
   </div>
 </section>
