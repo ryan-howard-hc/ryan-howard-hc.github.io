@@ -24,7 +24,7 @@ const BlogJourney = () => {
                 ))}
               </div>
               <div className="col">
-                {[7, 8, 9, 10, 11].map((week) => (
+                {[7, 8, 9, 10, 11, 12].map((week) => (
                   <Link key={week} to={`/02blogweek${week}`} className="nav-link fst-italic">Week {week}</Link>
                 ))}
               </div>
@@ -134,6 +134,12 @@ const BlogJourney = () => {
           title: "Week 11",
           text: "Back to the Future",
           link: "/02blogweek11"
+        },
+        {
+          img: "https://www.redriderleglamps.com/cdn/shop/products/christmas-story-45-inch-full-size-leg-lamp-crate-1000-web_1_2_900x.jpg?v=1592330328",
+          title: "Week 12",
+          text: "Ah-Gee-Lay",
+          link: "/02blogweek12"
         },
       ].map((card, index) => (
         <div key={index} className="col-lg-4 col-md-6 mb-4">
