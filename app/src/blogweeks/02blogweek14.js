@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './00bloga.css';
 
-const Week11Blog = () => {
+const Week14Blog = () => {
 
     return (
       <body className='individual-body'>
@@ -25,4 +25,4 @@ So, to anyone considering a similar journey, I say this: Yes, it will be dauntin
     );
   };
   
-  export default Week11Blog;
+  export default Week14Blog;

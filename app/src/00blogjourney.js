@@ -152,6 +152,12 @@ const BlogJourney = () => {
           title: "Week 14",
           text: "Leap of Faith",
           link: "/02blogweek14"
+        },
+        {
+          img: "https://dslntlv9vhjr4.cloudfront.net/posts_images/h6aptxHYCOxmy.png",
+          title: "Week 15",
+          text: "Such a lovely day...",
+          link: "/02blogweek15"
         }
       ].map((card, index) => (
         <div key={index} className="col-lg-4 col-md-6 mb-4">
