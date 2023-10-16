@@ -174,13 +174,13 @@ const BlogJourney = () => {
     </div>
   </div>
 </section>
-      <section id="blogMain" className="">
+      {/* <section id="blogMain" className="">
   <div className="row">
     <div className="col-11  ms-5 ">
       <iframe src="/02blogweek1" className="preview-iframe"></iframe>
     </div>
   </div>
-</section>
+</section> */}
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossOrigin="anonymous"></script>
