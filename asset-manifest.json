@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2703a0c.css",
-    "main.js": "/static/js/main.d3fff3ac.js",
+    "main.css": "/static/css/main.c2aee708.css",
+    "main.js": "/static/js/main.5a61714a.js",
     "static/media/IMG_4615.JPG": "/static/media/IMG_4615.028f01e25988cf884679.JPG",
     "static/media/Snapchat-1938554291.jpg": "/static/media/Snapchat-1938554291.bfff7d46d3827150ea09.jpg",
     "static/media/leone-venter-VieM9BdZKFo-unsplash.jpg": "/static/media/leone-venter-VieM9BdZKFo-unsplash.ac013b95bdc8c202fd42.jpg",
@@ -16,11 +16,11 @@
     "static/media/large_0.jpg": "/static/media/large_0.d428821b314dccd76ea7.jpg",
     "static/media/Lobster_1.3.otf": "/static/media/Lobster_1.3.5dac3df5d14e11ce5242.otf",
     "index.html": "/index.html",
-    "main.b2703a0c.css.map": "/static/css/main.b2703a0c.css.map",
-    "main.d3fff3ac.js.map": "/static/js/main.d3fff3ac.js.map"
+    "main.c2aee708.css.map": "/static/css/main.c2aee708.css.map",
+    "main.5a61714a.js.map": "/static/js/main.5a61714a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2703a0c.css",
-    "static/js/main.d3fff3ac.js"
+    "static/css/main.c2aee708.css",
+    "static/js/main.5a61714a.js"
   ]
 }
