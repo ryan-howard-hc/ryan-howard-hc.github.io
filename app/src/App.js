@@ -20,6 +20,7 @@ import Week12Blog from './blogweeks/02blogweek12';
 import Week13Blog from './blogweeks/02blogweek13';
 import Week14Blog from './blogweeks/02blogweek14';
 import Week15Blog from './blogweeks/02blogweek15';
+import Week16Blog from './blogweeks/02blogweek16';
 
 
 const App = () => {
@@ -41,10 +42,12 @@ const App = () => {
           <Route path="/02blogweek9" component={Week9Blog} />
           <Route path="/02blogweek10" component={Week10Blog} />
           <Route path="/02blogweek11" component={Week11Blog} />
-          <Route path="/02blogweek11" component={Week12Blog} />
-          <Route path="/02blogweek11" component={Week13Blog} />
-          <Route path="/02blogweek11" component={Week14Blog} />
-          <Route path="/02blogweek11" component={Week15Blog} />
+          <Route path="/02blogweek12" component={Week12Blog} />
+          <Route path="/02blogweek13" component={Week13Blog} />
+          <Route path="/02blogweek14" component={Week14Blog} />
+          <Route path="/02blogweek15" component={Week15Blog} />
+          <Route path="/02blogweek16" component={Week16Blog} />
+
 
         </Switch>
 
