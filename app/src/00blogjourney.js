@@ -50,7 +50,7 @@ const BlogJourney = () => {
               <h5 className="fw-bold" style={{ color: "#f8f8f8",fontFamily: "Audiowide-regular" }}>Get to know me!</h5>
               
               <Link to="/01aboutme" className="nav-link fst-italic">About me!</Link>
-              <a className="nav-link fst-italic" href="https://www.linkedin.com/in/ryan-matthew-howard-566b49277/">LinkedIn</a>
+              <a className="nav-link fst-italic" href="https://www.linkedin.com/in/ryan-matthew-howard/">LinkedIn</a>
               <a className="nav-link fst-italic" href="https://github.com/ryan-howard-hc">GitHub</a>
               <a className="nav-link fst-italic" href="mailto:ryan.howard1993@gmail.com">ryan.howard1993@gmail.com</a>
               <br />
@@ -155,15 +155,21 @@ const BlogJourney = () => {
         },
         {
           img: "https://dslntlv9vhjr4.cloudfront.net/posts_images/h6aptxHYCOxmy.png",
-          title: "Week 15",
+          title: "First Month after",
           text: "Such a lovely day...",
           link: "/02blogweek15"
         },
         {
           img: "https://content.wisestep.com/wp-content/uploads/2016/05/Scary-Job-Search-Stories.jpg",
-          title: "Week 16",
+          title: "Second Month",
           text: "Ghoulish Beginnings",
           link: "/02blogweek16"
+        },
+        {
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsClgkHcMG5zrZAplUWJnWcSeZIvY-uBhArQ&usqp=CAU",
+          title: "Third Month",
+          text: "Giving thanks, for what? Depression inc",
+          link: "/02blogweek17"
         }
       ].map((card, index) => (
         <div key={index} className="col-lg-4 col-md-6 mb-4">

@@ -21,6 +21,7 @@ import Week13Blog from './blogweeks/02blogweek13';
 import Week14Blog from './blogweeks/02blogweek14';
 import Week15Blog from './blogweeks/02blogweek15';
 import Week16Blog from './blogweeks/02blogweek16';
+import Week17Blog from './blogweeks/02blogweek17';
 
 
 const App = () => {
@@ -47,6 +48,7 @@ const App = () => {
           <Route path="/02blogweek14" component={Week14Blog} />
           <Route path="/02blogweek15" component={Week15Blog} />
           <Route path="/02blogweek16" component={Week16Blog} />
+          <Route path="/02blogweek17" component={Week17Blog} />
 
 
         </Switch>
