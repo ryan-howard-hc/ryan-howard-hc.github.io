@@ -6,6 +6,7 @@ import img2 from "./img/talosiannn.jpg";
 import img3 from "./img/memento-featured.jpg";
 import img4 from "./img/mainframe.png";
 import img5 from "./img/Contact-Card-Icons/IMG_4615.JPG";
+import img6 from "./img/xmas.jpg";
 
 const BlogJourney = () => {
   return (
@@ -19,12 +20,12 @@ const BlogJourney = () => {
             <h5 className="fw-bold mt-1" style={{ color: "#f8f8f8", fontFamily: "Audiowide-regular" }}>Blog Posts</h5>
             <div className="row">
               <div className="col" style={{ paddingLeft: "100px" }}>
-                {[1, 2, 3, 4, 5, 6, 7,8].map((week) => (
+                {[1, 2, 3, 4, 5, 6, 7,8,9].map((week) => (
                   <Link key={week} to={`/02blogweek${week}`} className="nav-link fst-italic">Week {week}</Link>
                 ))}
               </div>
               <div className="col">
-                {[ 9, 10, 11, 12, 13, 14,15,16].map((week) => (
+                {[ 10, 11, 12, 13, 14,15,16,17,18].map((week) => (
                   <Link key={week} to={`/02blogweek${week}`} className="nav-link fst-italic">Week {week}</Link>
                 ))}
               </div>
@@ -53,6 +54,8 @@ const BlogJourney = () => {
               <a className="nav-link fst-italic" href="https://www.linkedin.com/in/ryan-matthew-howard/">LinkedIn</a>
               <a className="nav-link fst-italic" href="https://github.com/ryan-howard-hc">GitHub</a>
               <a className="nav-link fst-italic" href="mailto:ryan.howard1993@gmail.com">ryan.howard1993@gmail.com</a>
+              <a className="nav-link fst-italic" href="https://ryan-howard-hc.github.io/Portfolio/">My Portfolio</a>
+
               <br />
             </div>
           </div>
@@ -168,8 +171,14 @@ const BlogJourney = () => {
         {
           img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsClgkHcMG5zrZAplUWJnWcSeZIvY-uBhArQ&usqp=CAU",
           title: "Third Month",
-          text: "Giving thanks, for what? Depression inc",
+          text: "Giving thanks, for what?",
           link: "/02blogweek17"
+        },
+        {
+          img: img6,
+          title: "Fourth Month",
+          text: "2024?",
+          link: "/02blogweek18"
         }
       ].map((card, index) => (
         <div key={index} className="col-lg-4 col-md-6 mb-4">
