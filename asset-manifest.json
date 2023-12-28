@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.c2aee708.css",
-    "main.js": "/static/js/main.e1e62350.js",
+    "main.js": "/static/js/main.e3271ab8.js",
     "static/media/IMG_4615.JPG": "/static/media/IMG_4615.028f01e25988cf884679.JPG",
     "static/media/Snapchat-1938554291.jpg": "/static/media/Snapchat-1938554291.bfff7d46d3827150ea09.jpg",
     "static/media/leone-venter-VieM9BdZKFo-unsplash.jpg": "/static/media/leone-venter-VieM9BdZKFo-unsplash.ac013b95bdc8c202fd42.jpg",
+    "static/media/xmas.jpg": "/static/media/xmas.f120d1cad8374b9d1d24.jpg",
     "static/media/mainframe.png": "/static/media/mainframe.b02d4e39dd97711fe9a9.png",
+    "static/media/krampus.jpg": "/static/media/krampus.dd1ced35967c89538f17.jpg",
     "static/media/MontserratAlternates-Bold.otf": "/static/media/MontserratAlternates-Bold.1956f7f0cd4125a68500.otf",
     "static/media/image.jpg": "/static/media/image.b257f4d269aeb07e8956.jpg",
     "static/media/memento-featured.jpg": "/static/media/memento-featured.111f6dbb7fdcf42c80e6.jpg",
@@ -17,10 +19,10 @@
     "static/media/Lobster_1.3.otf": "/static/media/Lobster_1.3.5dac3df5d14e11ce5242.otf",
     "index.html": "/index.html",
     "main.c2aee708.css.map": "/static/css/main.c2aee708.css.map",
-    "main.e1e62350.js.map": "/static/js/main.e1e62350.js.map"
+    "main.e3271ab8.js.map": "/static/js/main.e3271ab8.js.map"
   },
   "entrypoints": [
     "static/css/main.c2aee708.css",
-    "static/js/main.e1e62350.js"
+    "static/js/main.e3271ab8.js"
   ]
 }
